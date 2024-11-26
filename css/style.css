@@ -1,0 +1,57 @@
+/* styles.css */
+.row .col {
+    margin-bottom: 20px;
+  }
+  
+  .row .col img {
+    width: 100%;
+    height: 200px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .row .col img:hover {
+    transform: scale(1.05);
+  }
+  
+  .row .col h3 {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    color: #333;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+/* Estilos para los productos */
+.producto {
+  display: inline-block; /* Cambiar a inline-block para que los productos se alineen horizontalmente */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px; /* Reducir el relleno para que los productos estén más juntos */
+  margin-right: 20px; /* Agregar margen derecho para separar los productos */
+  margin-bottom: 20px;
+  text-align: center;
+  width: 200px; /* Definir un ancho fijo para cada producto */
+}
+
+.producto img {
+  max-width: 100%; /* Para asegurar que la imagen no exceda el contenedor */
+  height: auto; /* Para mantener la proporción de la imagen */
+  margin-bottom: 10px;
+}
+
+.producto h3 {
+  font-size: 16px; /* Reducir el tamaño del título */
+  margin-bottom: 5px; /* Reducir el espacio entre el título y la descripción */
+}
+
+.producto p {
+  font-size: 14px; /* Reducir el tamaño del texto de la descripción */
+  margin-bottom: 5px; /* Reducir el espacio entre la descripción y el precio */
+}
+
